@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>task 3 js</title>
+</head>
+<body>
+  
+    <header class="container text-center my-5 ">
+        <h1 class=" position-relative fw-bolder fs-1">Bookmarker</h1>
+    </header>
+    <section id="form" class="container my-5 py-5 d-flex justify-content-center align-items-center flex-column ">
+        <div class="text-center caption" >
+        <h3 class="fw-bold"> <i class="fa-solid fa-bookmark main-color"></i> Bookmark your favorite sites  <i class="fa-solid fa-bookmark  second-color "></i></h3>
+        </div>
+
+        <div class="mb-3 w-100">
+            <label for="itemName" class="form-label"> <i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label>
+            <input type="text" class="form-control" id="itemName" placeholder="Bookmark Name">
+        </div>
+        <div class="mb-3 w-100">
+            <label for="itemUrl" class="form-label"> <i class="fa-solid fa-link pe-2"></i> Site URL</label>
+            <input type="text" class="form-control" id="itemUrl" placeholder="Website URL">
+        </div>
+        <button class="btn btn-warning btn-submit ">Submit</button>
+          
+    </section>
+
+      <div class="container table-responsive">
+        <table class="table bg-white text-center">
+            <thead>
+              <tr>
+                <th scope="col">Index</th>
+                <th scope="col">Website Name</th>
+                <th scope="col">Visit</th>
+                <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+            
+          
+            </tbody>
+          </table>
+      </div>
+    
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>       
+<script src="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/js/all.min.js"></script>
+<script src="js/main.js"></script>     
+</body>
+</html>

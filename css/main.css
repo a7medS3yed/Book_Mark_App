@@ -1,0 +1,70 @@
+.main-color{
+        color: #3FA55C;
+}
+.second-color{
+        color: #B2AC4A;
+}
+.main-bg{
+        background-color: #3FA55C;
+}
+.second-bg{
+        background-color: #B2AC4A;
+}
+.btn-hover-color{
+        background-color: #BB4120;
+}
+.btn-color{
+        background-color: #924530dd;
+}
+
+body{
+        background-color: #F7ECDE;
+}
+
+h1::after{
+        content: '';
+        width:  200px;
+        height: 15px;
+        background-color: #FEC260;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+        transition: all 0.5s;
+}
+h1{
+        z-index: 1;
+}
+
+#form{
+        border-bottom:dotted;
+        border-top: dotted;
+        
+}
+
+.caption{
+        background: linear-gradient(to right,#3FA55C, yellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+
+.btn-submit{
+       width:   150px;
+}
+.btn{
+        color: white !important;
+}
+
+h1:hover::after {
+        height: 30px; /* Change the height to your desired value */
+    }
+
+@media screen and (min-width:768px) {
+      
+        h1::after{
+                width: 250px;
+        }
+}
